@@ -2,8 +2,8 @@ import requests
 from bs4 import BeautifulSoup
 import smtplib
 
-my_email = "hassaanRaza71@gmail.com"
-password = "trix fslf wtlg qwny"
+my_email = [YOUR EMAIL]
+password = [YOUR PASS]
 
 
 url = "https://a.co/d/11kN3oy"
@@ -32,7 +32,7 @@ if price_in_float < 297:
         connection.login(user=my_email, password=password)
         connection.sendmail(
             from_addr=my_email,
-            to_addrs="hassaanraza539@gmail.com",
+            to_addrs="[]",
             msg=message
         )
 
